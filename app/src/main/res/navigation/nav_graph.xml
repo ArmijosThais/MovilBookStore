@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentAccount">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.elgatonegro.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragmentShopping"
+        android:name="com.example.elgatonegro.FragmentShopping"
+        android:label="fragment_shopping"
+        tools:layout="@layout/fragment_shopping" />
+    <fragment
+        android:id="@+id/fragmentAccount"
+        android:name="com.example.elgatonegro.FragmentAccount"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account"
+        />
+    <fragment
+        android:id="@+id/fragmentDetalleLibro"
+        android:name="com.example.elgatonegro.fragmentDetalleLibro"
+        android:label="fragment_detalle_libro"
+        tools:layout="@layout/fragment_detalle_libro" >
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentHome2"
+            app:destination="@id/fragmentHome" />
+    </fragment>
+</navigation>
