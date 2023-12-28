@@ -51,8 +51,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 ```bash
 git clone https://github.com/ArmijosThais/MovilBookStore.git
 ```
-3. Abre el proyecto en Android Studio.
-4. Ejecuta la aplicación en un emulador o dispositivo Android.🚀📲
+2. Abre el proyecto en Android Studio.
+3. Ejecuta la aplicación en un emulador o dispositivo Android.🚀📲
 
 ## Capturas de Pantalla 📸
 
